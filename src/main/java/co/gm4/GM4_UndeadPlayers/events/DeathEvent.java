@@ -12,13 +12,13 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
 
-import co.gm4.GM4_UndeadPlayers.GM4_UndeadPlayers;
+import co.gm4.GM4_UndeadPlayers.UndeadPlayers;
 
 public class DeathEvent implements Listener {
 
-	private GM4_UndeadPlayers plugin;
+	private UndeadPlayers plugin;
 	
-	public DeathEvent(GM4_UndeadPlayers plugin)
+	public DeathEvent(UndeadPlayers plugin)
 	{
 		this.plugin = plugin;
 		plugin.getServer().getPluginManager().registerEvents(this, plugin);

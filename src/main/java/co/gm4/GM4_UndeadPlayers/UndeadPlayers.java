@@ -19,7 +19,7 @@ import co.gm4.GM4_UndeadPlayers.events.DeathEvent;
  * Website (of GM4): http://gm4.co
  */
 
-public class GM4_UndeadPlayers extends JavaPlugin {
+public class UndeadPlayers extends JavaPlugin {
 	
 	public Class<?> iChatThing;
 	public Class<?> chatSerializer;
